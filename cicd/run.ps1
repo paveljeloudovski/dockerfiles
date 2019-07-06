@@ -1,0 +1,1 @@
+docker run -it --name cicd -v C:\data\dev:/data -v C:\Users\pjeloudovski\.ssh:/root/.ssh2 -v /var/run/docker.sock:/var/run/docker.sock docker-repo.lixar.net/aptiv/cicd bash

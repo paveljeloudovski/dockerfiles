@@ -1,0 +1,1 @@
+docker run -it --name linuxbox -v c:\data\dev:/data C:\vagrantdata\linuxbox:/boxdata -v C:\Users\pjeloudovski\.ssh:.ssh2 lixar_linux bash

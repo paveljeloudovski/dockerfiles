@@ -1,0 +1,1 @@
+docker run -it -v C:\data\dev\:/data -v /var/run/docker.sock:/var/run/docker.sock --name cicd docker-repo.lixar.net/devops/cicd-centos 

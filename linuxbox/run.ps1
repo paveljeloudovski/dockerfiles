@@ -1,0 +1,1 @@
+docker run -it --name linuxbox -v C:\data\dev:/data -v C:\vagrantdata\linuxbox:/boxdata -v C:\Users\pjeloudovski\.ssh:/root/.ssh2 linuxbox bash

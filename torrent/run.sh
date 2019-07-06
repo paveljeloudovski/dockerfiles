@@ -1,0 +1,1 @@
+docker run -d --name qbittorrent -p 8080:8080 -p 6881:6881/tcp -p 6881:6881/udp -v C:\vagrantdata\torrent\config:/config -v C:\vagrantdata\torrent\torrents:/torrents -v C:\vagrantdata\torrent\downloads:/downloads wernight/qbittorrent
